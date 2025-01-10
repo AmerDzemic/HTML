@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(146, 134, 134, 0.596);
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+.tabela {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+   
+    
+
+.tabela th,
+.tabela td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.tabela th {
+    background-color: rgba(128, 128, 128, 0.582);
+    color: white;
+}
+
+
+h4{
+    text-decoration: underline;
+}
+
+
+ul{
+    background-color: rgba(230, 230, 230, 0.699);
+    width: 20px;
+
+
+}
+
+ol{
+    margin: 15px;
+    background-color: rgba(230, 230, 230, 0.699)
+     
+}
+  
+dl{
+   padding: 10px;
+}
+

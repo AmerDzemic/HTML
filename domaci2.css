@@ -1,0 +1,52 @@
+body{
+    background-color:rgba(143, 143, 143, 0.822);
+}
+
+nav ul{
+    border: 2px solid rgb(58, 54, 54);
+    justify-content: space-around;
+    display: flex;
+}
+
+nav ul li{
+   text-decoration: underline solid red;
+   margin: 0px 0px;
+   padding:0px 0px ;
+   width: 150px;
+   height: 25px;
+   text-align: justify;
+   font-weight: bold;
+   color: black;
+}
+
+header{
+    list-style-type: none;
+    justify-content: space-between;
+    display: flex;
+    
+   
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    background-color: #3d3d3d;
+    color: #fff;
+    padding: 20px 0;
+ text-align: center;
+ flex-direction: row;
+ }
+
+ .container {
+    width: 80%;
+    margin: 0 auto;
+   
+}
+
+h2{
+    text-align: right;
+}
+

@@ -1,0 +1,118 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --font-size-base: 1rem;
+}
+
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+line-height: 1.6;
+background-color: var(--primary-color);
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+
+.container {
+width: 80%;
+max-width: 60rem;
+text-align: center;
+}
+
+h1 {
+font-size: 2rem;
+margin-bottom: 2rem;
+}
+
+p {
+font-size: 1.2rem;
+margin-bottom: 2rem;
+}
+
+.cards {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: flex-start;
+gap: var(--gap-standard);
+}
+
+.card {
+background-color: var(--secondary-color);
+padding: 2rem;
+border-radius: 0.5rem;
+margin: 1rem;
+box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+transition: 300ms;
+}
+
+.card:hover {
+background-color: aquamarine;
+scale: 1.1;
+}
+
+@media (max-width: 1024px) {
+/* Standard za srednje ekrane */
+h1 {
+    font-size: 1.8rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.cards {
+    justify-content: space-evenly;
+}
+}
+
+@media (max-width: 768px) {
+/* Standard za manje ekrane */
+body {
+    background-color: #e74c3c;
+    color: black;
+}
+
+.cards {
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    background-color: #f1c40f;
+    width: 80%;
+}
+}
+
+@media (max-width: 480px) {
+.cards {
+    flex-direction: column;
+}
+
+.card {
+    width: 100%;
+}
+}
+
+ @media (min-width: 1200px) {
+body {
+padding: 5vh 10vw;
+}
+
+.container {
+text-align: left;
+}
+}
+
+@media (min-width: 1920px) {}
+h1 {
+font-size: 3rem;
+}
+
+.card {
+padding: 3rem;
+font-size: 1.5rem;
+}

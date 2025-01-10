@@ -1,0 +1,105 @@
+body{
+    background-color: white;
+}
+
+.col{
+    padding: 0px 15px;
+}
+
+.container{
+    background-color: cornflowerblue;
+    border: 2px dotted black;
+}
+
+@media(min-width:768px)  {
+    .container{
+        width: 750px;
+    }
+    col{
+        width: 50%;
+    }
+
+}
+
+@media(min-width:992px)  {
+    .container{
+        width: 970px;
+        margin: 0px;
+    }
+    col{
+        width: 33%;
+    }
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Razdvaja tekst i formu */
+    width: 80%; /* Širina kontejnera */
+}
+
+.text-left {
+    flex: 1; /* Tekst zauzima pola prostora */
+    padding-right: 20px; /* Razmak između teksta i forme */
+}
+
+.text-left h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text-left p {
+    font-size: 16px;
+}
+
+.form-right {
+    flex: 1; /* Forma zauzima pola prostora */
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.form-right label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.form-right input,
+.form-right textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-right button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-right button:hover {
+    background-color: #45a049;
+}

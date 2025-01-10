@@ -1,0 +1,99 @@
+ul{
+    
+    width: 20px;
+    padding: 50px;
+}
+
+ol{
+    background-color: blue;
+    bottom: auto;
+    margin: 100px;
+}
+
+dl{
+    background-color: darkmagenta;
+
+}
+
+ul ul{
+    background-color: rgb(20, 102, 13);
+    padding-top: 100px;
+}
+
+ .neki-div h1{
+    background-color: blueviolet
+    padding 100px;
+}
+
+div p{
+    background-color: blue;
+}
+
+#table-content{
+    font-family:'Quicksand'sans-serif;
+    border-collapse:collapse;
+  min-width: 400px;
+
+}
+
+#table-content td,
+#table-contnet th{
+    border-bottom: 1px solid green;
+    
+    text-align: left;
+    padding: 10px 15px;
+}
+
+#table-content th{
+    font-weight: bold;
+    background-color: green;
+    color: white;
+}
+
+
+.fa-youtube{
+    font-size: 100px;
+}
+
+header{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img{
+    border: 2px solid black;
+    margin-top: auto;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    
+    border: 2px solid black;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type:none;
+}
+
+ul li{
+    margin: 0px 12px;
+}
+
+
+footer{
+    margin: 0px 12px;
+    text-align: right;
+    justify-content: space-between;
+}
+
+.div2{
+    text-align: left;
+    background-color: coral;
+    border: 2px solid black;
+}
+
+    

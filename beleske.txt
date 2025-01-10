@@ -1,0 +1,261 @@
+HTML-hypertext markup Language  znaci da je to tekst koj se viyuelno grupu
+html nije programski jeyik ali za markiranje jezik
+nacin izvrsavanja komadni koje mi u fajl zapisemo se uvek i u htmlu i u programskim jezicima 
+izvrsava od pocetka fajla ka kraju.
+
+.html ili .htm
+primer- index.html ili index.htm
+ 
+Za pravljenje staticnih sajtova dovoljno je koristiti HTML ili CSS.
+Znaci staticni sajtovi bez veze ssa bazom podataka i bez nekih vecih funkcija
+ 
+CSS skracenica od Cascade Stayleshade jeyik ya stilizovanje 
+CSS nam slauzi za stilizovanje elemenata u HTMLu i kasnije nekih komponenata u JavaScriptu i Reactu.
+
+w3schools.com 
+
+<!DOCTYPE html>-svaka stranica mora da ima i oznacava da koristimo html VERZIJU 5.
+<HTML> </HTML> -otvoreni tag> </zatvoreni tag > OYNACAVA POCETAK i kraj kodiranje stranice u html-u
+
+<samoyatvarajuciTag min=5 max6/>- Samozatvarajuci tag ,tag koji ne zahteva nista  unutar sebe,
+vecinom ima atribute koji su neophodni 
+
+Artributi su parametri elementa koji su cesto neophodni,nekada i opcioni(ne moraju da postoje) 
+koji stoje uz deklaraciju elemenata i blize
+odredjuju njegoov ponasanje
+
+Primer-Tag koji smo navali kao samozatvarajuci je kao atribute imao ili 
+trazio unos minimalnog i max. broja
+time je blize odredjeno sta ce taj element da poseduje kao podatk.
+
+/html>
+       UNUTAR svakog elementa koji ima svoje otvarajuce i zatvarajuce tagove,postoji body,odnosno telo elementa u kome 
+se zavrsava 
+primer takvog elementa je bas ovaj u kome kucamo
+</HTML>
+<--- --> KOMENTAR u HTMLu oznacava deo koji se ne ucitava ma sajtu,znaci se ne prikazuju,a sluzi kao naznaka ili
+objasnjenje nekome delu koda.
+<head> tag je kao container za metadate(podoaci o podacima).
+Metadate su podaci ili informacije o podacima(NPR.Web strane,slike,video snimci itd...)
+
+<title> tag sluzi za zadavanje imena ili naziva stranica.
+pojavljuje se na imenu taba koji je otvoren u browseru.
+
+<meta charset="UTF-8"> -Meta tag stoji za metadate sajta,
+odnosno o podacima na sajtu.
+Charset-stoji za set karaktera koji se koristi u sajt ili strani na kojoj
+smo stavilimeta tag.
+"UTF-8"- ozanacava tip karakternog seta koji se koristi.
+UTF-8 poznat je kao set kao set karaktera koji prihvata vise nacina kucanja.
+
+<meta name="viewport" content="width=device-width,inital-scale=1.0">
+oznacava viewport uredjaja koji ucitava stranu.
+U kontentnom delu su naznaceni width kao sirina ekrana
+i u komandi zadato da koristi sirimu displeja uredajaj.
+initial scale oznacava skaliranje odnosno razmeru koja ce se vrsiti
+na uredjaju.
+1.0 oznacava da se koristio 100% odnosno ceo ekran.
+
+<body> tag je telo stranice i sluzi za ubacivanje elementa
+ili tagova unutar sebe
+
+ <h1>-<h6>- su tagovi,odnosno naslovi.
+Krecu se u rasponu od h1 do h6,stilizacija moguca kroz CSS
+ako se od nas trazi drugaciji stil
+h1 je najveci naslov,a h6 najmanji naslov
+
+<p> tag sluzi za definisanje ili ubacivanje paragrafa unutar stranice
+Paragraf nam sluzi kao manji ili veci pasusi unutar sajta.
+
+ <pre> tag sluzi za preformirati tekst.On prikazuje tekst unutar 
+ svojih tagova onako kako nama treba da bude prikazno na stranici.
+ Svaka nova linija i svaki space unutar teksta ce biti prikazan.
+
+<br> tag sluzi kao break line,odnosno,on prekida liniju
+od mesta gde je tag unet i ostatak teksta prebacuje u novu liniju.
+
+<hr> sluzi ako break line u tekstu ili stranici
+Prikazuje horizontalnu liniju koja razdvaja stranu
+
+<pre style="color:gray> je inline style za elemenete.
+Ako postoji i drugi CSS za pre tagove inline style je 
+priortnije da se sledi za ono sto je definisano
+a ono sto nije,sledice globalni css stil.
+
+
+<div> tag sluzi kao container ili wrapper drugih elemenata.
+Preko diva se mogu grupisati elementi u jednu celinu,odnosno u jedan div.
+
+<b>,<i>,<u>,<del>-su formeri teksta 
+<b>- sluzi za boldiranje/debljanje teksta
+<i>-zakrivljenje teksta
+<u> underline-linija ispod
+<del>-prebrisani deo teksta
+
+<tagname style="property:value;"> -Sintaksa u kojoj radi style atribute.
+Sintaksa ide redom tag koji zelimo da stilizujemo,style kao atribute,
+navodnici "" i property:value; kombinacija u kojoj su oboje CSS parametri.
+Nakon svake property:value kombinacije obavezno sledi ; kao kraj CSS komande.
+
+background color-je CSS komanda koja sluzi za definisanje boje koja cese koristi kao pozadina
+
+text-aligin-definise poziciju tekta unutar diva ili unutar svoje sirine
+
+border-oznacava liniju koja se nalzai oko elementa,sluzi kao granicnik elementa
+
+width-definise sirinu elementa,moze biti u pikselima{px}
+
+height-definsie visinu elementa,takodje moze biti u pikselima 
+
+ class- su atributi koji svaki element tag sadrzi i dodaje se kada zelimo da neki elementi
+ saddrze iste stilove
+
+ id-isto atributi,specificni za jedan element i ne smeju se 
+ ponavljati nazivi zadati u njima u drugim elemntima/tagovima
+
+ padding-je razdaljina unutar jednig elementa od bordera
+
+ margin- je razdeljina jednog elemenata od svih spoljasnih elemenata
+ 
+
+.css file- mogu da se stilizuju svi html tagovi(pozovu se kao
+u html i u viticastim zagradama{} im se doodeljuju stilovi),
+ako hocemo da stilizujemo elemenate sa klasama,stavljamo .(tacka) i
+ime klase npr:.box {...}
+
+ako hocemo da stilizujemo elemente u id-evima,stavljamo #
+i ime u id-u npr: #box5
+
+li-dete elementa koji se nalazi kao jedan element u listi,obican tekst 
+ide u njemu.
+
+ul-neuredjena lista koja ima samo kruzice pored unutrasnjih elemenata,
+sluzi nam za nerasporedjene spiskove
+
+ol-uredjena lista koja ima redne brojeve pored svojih elemenata sluzi nam za
+spisak stvari koje imaju poseban redosled
+
+dl-opisna lista koja ima dva elemnta druga umesto li,jedan oznacava podnaslov(dt)
+druga opis podnaslova(dd)
+ 
+
+<table>- oznacava tabelu u html-u,koji sadrzi dva elementa kao decu 
+
+1.<thead>-header tabele,oznacava grupaciju ispod koje padaju deskripcije
+za thead celije se nazivaju
+<th>(tabele head celija)-naziv grupacija odgovarajucih celija
+
+2.<tbody>-telo tabele,grupa redova celija koja sadrzi podatke 
+koji opisuju elemente iz <thead> kojima pripadaju
+za tbody celije se nazivaju  :
+<Td>(tabble description celija)-podaci koji odgovaraju grupaciji zadatoj u thead
+<Tr>(TABLE ROW)-jedan red koji sadrzi odgovarajuci broj celija(red znaci da je inline element)
+
+<tr>(table row)-jedan red u tabeli koji sadrzi odgovarajuci
+broj red celija (red znaci da je inline element)
+
+<form> - koristi se za definisanje obrasca za unos podataka koji 
+se šalju na server, atribute poput action i method koristi za 
+definisanje odredišta i načina slanja podataka
+
+<label> - koristi se za povezivanje teksta sa određenim elementom
+obrasca, poput input polja, radi bolje pristupačnosti
+
+<input> - univerzalni element za unos podataka; tip unosa se 
+određuje atributom type
+
+<select> - omogućava izbor između više opcija u padajućem meniju
+
+<option> - definiše pojedinačnu opciju unutar <select> elementa
+
+<input type="tel"> - omogućava unos broja telefona
+
+<input type="number"> - omogućava unos numeričkih vrednosti,
+često uz ograničenja (min, max)
+
+<input type="date"> - omogućava unos datuma
+
+<input type="file"> - omogućava izbor i slanje datoteka
+
+<input type="submit"> - dugme koje šalje podatke sa obrasca na 
+server
+
+<input type="reset"> - dugme koje resetuje (briše) sve unesene 
+podatke u obrascu.
+
+<textarea> - koristi se za unos višelinijskog teksta
+
+action - definiše URL ili putanju gde se podaci sa obrasca šalju
+
+method - određuje HTTP metodu za slanje podataka (GET ili POST)
+
+type - definiše tip polja za unos, npr. tekst, lozinka, email,
+dugme itd.
+
+name - daje ime polju kako bi se podaci prepoznali na serveru
+
+placeholder - prikazuje neobavezan tekst unutar polja dok korisnik 
+ne unese podatke
+
+required - označava da polje mora biti popunjeno pre slanja obrasca
+
+za type="radio" i type="checkbox" name atribut mora da bude kod 
+svakog inputa isti
+
+value - daje početnu vrednost elementa
+
+min - definiše minimalnu dozvoljenu vrednost za unos, 
+npr. broj ili datum
+
+max - definiše maksimalnu dozvoljenu vrednost za unos, 
+npr. broj ili datum
+
+enctype se koristi za određivanje načina kodiranja podataka prilikom 
+slanja, npr. za datoteke (multipart/form-data)
+
+display: flex; - postavlja kontejner kao fleksibilni kontejner, omogućavajući njegovim potomcima da se poravnaju i rasporede koristeći fleksibilne modele rasporeda
+
+flex-direction: row; - određuje glavni smer u kojem se fleksibilni elementi raspoređuju; u ovom slučaju, raspored je horizontalan (sleva nadesno):
+row - postavlja elemente u red horizontalno sleva nadesno;
+row-reverse - postavlja elemente u red horizontalno sdesna nalevo;
+column - postavlja elemente vertikalno od vrha ka dnu;
+column-reverse - postavlja elemente vertikalno od dna ka vrhu;
+
+flex-wrap: wrap; - omogućava fleksibilnim elementima da prelome u sledeći red ako nema dovoljno prostora u glavnom smeru:
+nowrap - zadržava sve elemente u jednom redu bez prelamanja;
+wrap - omogućava prelazak elemenata u novi red kada nema dovoljno prostora;
+wrap-reverse - slično kao wrap, ali elementi prelaze u novi red u obrnutom smeru;
+
+justify-content: center; - poravnava fleksibilne elemente duž glavne ose tako da budu centrirani unutar fleksibilnog kontejnera:
+flex-start - poravnava fleksibilne elemente prema početku glavne  ose;
+flex-end - poravnava fleksibilne elemente prema kraju glavne ose;
+center - centrira fleksibilne elemente duž glavne ose;
+space-between - raspoređuje elemente tako da prvi bude poravnat sa početkom, poslednji sa krajem, a preostali prostor ravnomerno podeljen između elemenata;
+space-around - dodaje jednake razmake oko svakog elementa, uključujući i rubne margine;
+space-evenly - deli prostor ravnomerno između svih elemenata, uključujući i rubove kontejnera;
+
+align-items: center; - poravnava fleksibilne elemente duž poprečne ose tako da budu centrirani vertikalno u odnosu na kontejner:
+flex-start - poravnava elemente prema početku poprečne ose;
+flex-end - poravnava elemente prema kraju poprečne ose;
+center - centrira elemente duž poprečne ose;
+baseline - poravnava elemente prema njihovim osnovnim linijama teksta;
+stretch - rasteže elemente da popune prostor duž poprečne ose (ako nisu postavljene visine);
+
+flex-flow: column nowrap; - skracenica za kombinaciju flex-direction i flex-wrap, postavlja fleksibilne elemente u vertikalni smer (column) i zabranjuje prelamanje u novi red (nowrap):
+
+ 
+position:-static;  -default pozicija svih elemnata ne radi nista i ne pise se u CSS
+
+position:relative;  -  pozicija koja je slicna kao static,razlika je sto dodaje mogucnost pozicioniranja
+elementimanta sa top.,left,right,bottom
+
+position: absolue; -    pozicija koja kada se dodeli elementu ga salje sloj iznad
+ i ne preklapa druge eleemente nego kao da lebdi iznad njihovim 
+
+ position:fixed; - slican kao absolue,s tim stp gde mu se dodeli pozicija on jje fiksiran 
+ za nju gde god se mi nalazili na stranici
+
+ position sticky-- spoj relative i fixed stoji kao relative elemetn a prati nas kada slrolujemo
+ u zavisnosti gde smo ga stavili da pocinje
+
+ *svi osim static imaju top,left,right,bottom

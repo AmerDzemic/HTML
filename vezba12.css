@@ -1,0 +1,127 @@
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    background-color:white;
+  
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin-left: 20px;
+}
+
+.logo{
+    height: 40px;
+}
+
+.uvod img{
+    height: 100%;
+    width: 650px;
+}
+
+
+.featurea{
+    padding: 20px 20px;
+    text-align: center;
+    
+}
+
+.feature-cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+ 
+}
+
+
+    .feature-cards .card {
+        background-color: white;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        width: 200px;
+        text-align: center;
+       
+    }
+
+.button{
+    padding: 10px 20px;
+    background-color: #00aaff;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+  
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.feature-cards .card img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+
+.card{
+    background-color: white;
+    width: 20vw;
+    height: 30vw;
+
+}
+
+    .features h2 {
+        font-size: 2.5rem;
+        margin-bottom: 40px
+
+        }
+
+        .glavno{
+            padding: 40px 20px;
+            text-align: center;
+        }
+        
+        
+        .osnovno{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        
+        .osnovno .prvi-deo{
+            background-color: white;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            width: 200px;
+            text-align: center;
+        }
+        
+        .osnovno .prvi-deo img{
+            width: 200px;
+            height: 200px;
+            margin-bottom: 20px;
+        }
+        
+
+        
+            h4{
+                text-decoration: none;
+                background-color: rgb(133, 130, 130);
+                color: #000000;
+                font-size: 1em;
+                padding: 5px 10px;
+                border-radius: 5px;
+               position: fixed;
+               right: 0px;
+            }
+        
+        

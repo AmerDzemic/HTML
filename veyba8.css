@@ -1,0 +1,48 @@
+header{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+   
+    
+}
+
+nav{
+    display: flex;
+   justify-content: space-around;
+   margin: 0px;
+   padding: 0px;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   background-color: aqua;
+   height: 100vh;
+}
+
+
+.project-grid{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.project-card{
+    padding: 20px;
+    background-color: burlywood;
+    text-align: center;
+    width: 50vw;
+}
+
+.project-row{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}

@@ -1,0 +1,47 @@
+header{
+    list-style-type: none;
+    font-style: bold;
+    justify-content: center;
+    display: flex;
+    background-color: green;
+    color: white;
+}
+
+.Tabela{
+    width: 50%;
+    height: 100px;
+    margin: 20px;
+    border-collapse: collapse;
+   
+    
+ }
+
+ .Tabela th,
+ .Tabela td {
+     padding: 12px;
+     text-align: left;
+     border: 1px solid rgb(179, 179, 179);
+
+ }
+
+ .Tabela th {
+    background-color: green;
+    color: white;
+    }
+
+    h4{
+        text-align: center;
+        background-color: black;
+        color: white;
+    }
+
+ .DIV{
+  display: flex;
+  justify-content: flex-end;
+ align-items: flex-end;
+   flex-direction: column; 
+   background-color: gray;
+  
+
+ }
+ 
