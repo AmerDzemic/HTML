@@ -1,0 +1,100 @@
+body{
+    background-color: #969393;
+}
+
+header{
+background-color: white;
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 20px;
+width: 100%;
+position: fixed;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    color: black;
+
+}
+
+nav a{
+    color: black;
+}
+
+.background-image{
+    background-image: url(https://images.unsplash.com/photo-1506744038136-46273834b3fb);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.background-image h1  {
+    color: var(--secondary-color);
+    font-size: 3rem;
+    font-weight: 700;
+  text-align: center;
+    color: white;
+    
+}
+
+.naslov{
+    position: absolute;
+    top: 50%;
+  left: 30%;
+  font-size: 1200px;
+}
+
+.podnaslov{
+    position: absolute;
+    top: 66%;
+  left: 40%;
+  
+}
+
+.btn2{
+    position: absolute;
+    top: 76%;
+  left: 48%;
+  background-color: red;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card1,
+.card2,
+.card3{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 300px;
+    height: 180px;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(29, 29, 75);
+    color: white;
+    height: 100%;
+}
+
+.follow{
+    position: absolute;
+    left: 55%;
+    top: 135%;
+
+}
+
+.end{
+    text-align: center;
+}
